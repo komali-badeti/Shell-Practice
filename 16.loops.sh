@@ -45,3 +45,36 @@ do
         echo -e "Nothing to do $package... $Y already installed $N" | tee -a $LOG_FILE
     fi
 done
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+USERID=$(id -u)
+if [ $USERID -ne 0]
+then
+   echo "ERROR:: please running with a root access"
+else
+   echo "you are running with a root access"
+fi

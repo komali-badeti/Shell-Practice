@@ -4,9 +4,9 @@
 NUMBER1=100
 NUMBER2=200
 
-TIMESTAMP=$(date)
+TIMESTAMP=$(date) 
 echo "Script executed at: $TIMESTAMP"
-SUM=$(($NUMBER1+$NUMBER2)) # $ braces lopala command tesukuni, a output ni variable lo ki tesukuntam.
+SUM=$(($NUMBER1+$NUMBER2)) # $ braces lopala command tesukuni, a output ni variable lo ki tesukuntam. dynamically execute the command and take the output.
 
 echo "SUM of $NUMBER1 and $NUMBER2 is: $SUM"
 
